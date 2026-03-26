@@ -30,7 +30,7 @@
 ---
 
 ## 🧠 How It Works
-
+---
 ### The Technology Stack
 
 ┌─────────────────────────────────────────────────────────────┐
@@ -63,6 +63,7 @@
 │ 🚨 SPAM DETECTED (92% Confidence) │
 └─────────────────────────────────────────────────────────────┘
 
+---
 ### 🔬 Technical Deep Dive
 
 #### **1. BERT (Bidirectional Encoder Representations from Transformers)**
