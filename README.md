@@ -138,14 +138,14 @@ cd email-classifier
 - open http://localhost:5000
 
 ## 📖 Usage Examples
- # ✅ Safe Email Detection
+ - ✅ Safe Email Detection
 
- - Input: "Hi team, let's schedule a meeting for tomorrow at 3pm"
- - Output:
- - ├── Classification: SAFE ✅
- - ├── Confidence: 94.2%
- - ├── Ham Probability: 94.2%
- - └── Spam Probability: 5.8%
+  - Input: "Hi team, let's schedule a meeting for tomorrow at 3pm"
+  - Output:
+  - ├── Classification: SAFE ✅
+  - ├── Confidence: 94.2%
+  - ├── Ham Probability: 94.2%
+  - └── Spam Probability: 5.8%
 
 ## 🚨 Spam Detection
 
@@ -160,10 +160,9 @@ cd email-classifier
 
 - import requests
 
- - response = requests.post(
-    'http://localhost:5000/classify',
-    json={'email': 'Your email text here'}
-)
+- response = requests.post(
+-    'http://localhost:5000/classify',
+-    json={'email': 'Your email text here'})
 
-print(response.json())
-# Output: {'is_spam': False, 'confidence': 0.942, ...}
+- print(response.json())
+
