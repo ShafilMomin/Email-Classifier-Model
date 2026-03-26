@@ -10,7 +10,7 @@
 [![Flask](https://img.shields.io/badge/Flask-2.3+-green.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-![Demo Screenshot](demo.png)
+![Demo Screenshot](https://github.com/ShafilMomin/Email-Classifier-Model/blob/main/email-classifier-app/demo.png)
 *Real-time email classification with confidence scores*
 
 </div>
